@@ -1,0 +1,112 @@
+2023-02-28 10:23:57 [scrapy.utils.log] INFO: Scrapy 2.8.0 started (bot: scrapybot)
+2023-02-28 10:23:57 [scrapy.utils.log] INFO: Versions: lxml 4.9.2.0, libxml2 2.9.12, cssselect 1.2.0, parsel 1.7.0, w3lib 2.1.1, Twisted 22.10.0, Python 3.9.13 (tags/v3.9.13:6de2ca5, M
+ay 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 23.0.0 (OpenSSL 3.0.8 7 Feb 2023), cryptography 39.0.1, Platform Windows-10-10.0.19044-SP0
+2023-02-28 10:23:57 [scrapy.crawler] INFO: Overridden settings:
+{'SPIDER_LOADER_WARN_ONLY': True}
+2023-02-28 10:23:57 [py.warnings] WARNING: C:\Users\minec\PycharmProjects\DA_Group7\venv\lib\site-packages\scrapy\utils\request.py:232: ScrapyDeprecationWarning: '2.6' is a deprecated
+value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for ba
+ckward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-02-28 10:23:57 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2023-02-28 10:23:57 [scrapy.extensions.telnet] INFO: Telnet Password: caccf2eb026f0e76
+2023-02-28 10:23:57 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2023-02-28 10:23:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-02-28 10:23:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-02-28 10:23:58 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-02-28 10:23:58 [scrapy.core.engine] INFO: Spider opened
+2023-02-28 10:23:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-02-28 10:23:58 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-02-28 10:23:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://172.18.58.80/photography/> (referer: None)
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/logo.png'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/portfolio/01.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/portfolio/02.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/portfolio/03.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/portfolio/04.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/portfolio/05.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/portfolio/06.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/portfolio/07.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/portfolio/08.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/team/01.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/team/02.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/team/03.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/team/04.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/blog/01.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/blog/02.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/blog/03.jpg'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/clients/logo-01.png'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/clients/logo-02.png'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/clients/logo-03.png'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/clients/logo-04.png'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/clients/logo-05.png'}
+2023-02-28 10:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://172.18.58.80/photography/>
+{'Image Link': 'img/logo.png'}
+2023-02-28 10:23:59 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-02-28 10:23:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 224,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 5647,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.199067,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 2, 28, 2, 23, 59, 150358),
+ 'httpcompression/response_bytes': 33694,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 22,
+ 'log_count/DEBUG': 24,
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 2, 28, 2, 23, 58, 951291)}
+2023-02-28 10:23:59 [scrapy.core.engine] INFO: Spider closed (finished)
